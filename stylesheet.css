@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer|Open+Sans+Condensed:300');
+
+body {
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+	margin-left: 10%;
+	width: 80%;
+	-webkit-box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    -moz-box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    padding: 15px;
+}
+
+li {
+	width: 10%;
+	display: inline;
+	padding-left: 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+section {
+	margin-top: 25px;
+	font-family: 'IM Fell Great Primer', serif;
+	-webkit-box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    -moz-box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    box-shadow: 4px 4px 31px -7px rgba(0,0,0,0.85);
+    padding: 15px;
+   	margin-left: 10%;
+	width: 60%;
+	display: inherit;
+}
+
+aside {
+    width: 23%;
+    margin-right: 8%;
+    margin-top: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.article {
+	display: block;
+	text-align: left;
+	padding: 2%;
+}
+
+.read {
+	float: right;
+}
+
+.articleTitle {
+	display: inline;
+	font-size: 16px;
+}
+
+img {
+	width: 70%;
+}
+
+iframe {
+	width: 60%;
+}
+
+iframe#ad {
+	width: 100%;
+	padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.flex {
+		flex-wrap: wrap;
+	}
+
+	iframe {
+		height: 80%;
+	}
+
+	iframe#ad {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	aside {
+		width: 80%;
+		float: none;
+		display: block;
+		margin-top: 10px;
+		height: 10%;
+		text-align: center;
+	}
+
+	section {
+		width: 70%;
+		margin-right: 8%;
+	}
+
+	ul {
+		width: 70%;
+	}
+
+}
+
